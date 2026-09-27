@@ -1,0 +1,31 @@
+AI Usage Disclosure
+
+Tool Used:
+ChatGPT 5.6 Sol
+
+Date Used:
+September 26, 2026
+
+Prompt Given to ChatGPT:
+
+Write a C++ program that reads a line of text and extracts exactly one valid IPv4 address, optionally followed by a port number.
+
+The address must contain four decimal octets from 0 to 255 separated by periods. Leading zeros are not allowed unless the octet is exactly 0.
+
+An optional port may follow after a colon and must be from 0 to 65535. Leading zeros are not allowed unless the port is exactly 0.
+
+The program should ignore unrelated characters and search for a valid IPv4 address. Exactly one valid address may be extracted from each line.
+
+Numeric values must be accumulated manually. Do not use atoi, stoi, strtol, sscanf, regular expressions, character classification functions, or IP parsing libraries.
+
+
+I also sent screenshots of the function prototype and sample run and requirements
+
+Code Attribution:
+ChatGPT generated the C++ source code in main.cpp. I did not make any changes to the generated source code after testing it.
+
+Verification:
+I reviewed the submitted code and made sure to understand every line of it by going through it and by asking it to clairfy any confusion I had. I tested the program using the assignment examples and additional test cases and it all worked as intended.
+
+Known Bugs, Limitations, or Unresolved Behavior:
+None that I could find.
